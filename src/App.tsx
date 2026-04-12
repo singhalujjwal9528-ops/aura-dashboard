@@ -43,7 +43,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/PBL--4th--Sem">
           <AppRoutes />
         </BrowserRouter>
       </AuthProvider>
